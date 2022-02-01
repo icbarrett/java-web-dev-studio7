@@ -1,6 +1,6 @@
 package org.launchcode.studio7;
 
-public class CD extends BaseDisc {
+public class CD extends BaseDisc implements OpticalDisc  {
     public CD (int storageCapacity, String name, String discType) {
         super(storageCapacity, name, discType);
     }
