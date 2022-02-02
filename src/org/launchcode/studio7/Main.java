@@ -2,14 +2,12 @@ package org.launchcode.studio7;
 
 public class Main {
 
-
-
     public static void main(String[] args){
 
         // TODO: Declare and initialize a CD and a DVD object.
 
-            CD cd = new CD(storageCapacity 700, name "SpiderMan", discType "cdROM");
-            DVD dvd = new DVD(storageCapacity 8000, name "IronMan", discType "DVDROM");
+            CD cd = new CD(700, "SpiderMan", "cdROM");
+            DVD dvd = new DVD(8000,  "IronMan", "DVDROM");
 
             cd.spinDisc();
             dvd.spinDisc();

@@ -20,6 +20,11 @@ public class CD extends BaseDisc implements OpticalDisc  {
         System.out.println("CD spinning at 600 rpm");
     }
 
+    @Override
+    public void spinMax() {
+        System.out.println("CD spinning at 600 rpm");
+    }
+
     // TODO: Implement your custom interface.
 
     // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones

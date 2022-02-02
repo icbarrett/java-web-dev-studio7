@@ -1,13 +1,13 @@
 package org.launchcode.studio7;
 
 public abstract class BaseDisc {
+
     private int storageCapacity;
     private String name;
     private String discType;
 
 
-    public BaseDisc (int storageCapacity, String name, String disctype) {
-
+    public BaseDisc (int storageCapacity, String name, String discType) {
         this.storageCapacity = storageCapacity;
         this.name = name;
         this.discType = discType;
